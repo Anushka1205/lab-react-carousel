@@ -1,1 +1,51 @@
 /* write your carousel css in this file */
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+.carousel-img{
+    width: 50%;
+    height: 80%;
+    margin-top: 4%;
+}
+.carousel-title{
+    font-size: 50px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.762);
+    position: absolute;
+    margin-bottom: 20%;
+}
+.carousel-sub-title{
+    /* border: 2px solid red; */
+    border-radius: 5px;
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0.762);
+    position: absolute;
+    margin-top: 20%;
+    font-size: 30px;
+    font-weight: normal;
+}
+.box{
+    /* border: 2px solid yellow; */
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.503);
+    color: white;
+     padding-block: 38.5vh;
+    padding-inline: 1.7vw; 
+    margin-top: 4%;
+    /* font-size: 50px;  */
+    /* padding: 5px; */
+
+}
+.Back-arr{
+    margin-right: 45%;
+}
+.Front-arr{
+    margin-left: 45%;
+}
